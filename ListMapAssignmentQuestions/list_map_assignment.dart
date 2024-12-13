@@ -231,17 +231,17 @@ void main() {
 // "quantity", write Dart code to check if the product is in stock. If the quantity is
 // greater than 0, print "In stock", otherwise print "Out of stock".
 
-  // Map<String, dynamic> product = {
-  //   'name': 'Laptop',
-  //   'price': 1000,
-  //   'quantity': 5
-  // };
+//   Map<String, dynamic> product = {
+//     'name': 'Laptop',
+//     'price': 1000,
+//     'quantity': 5
+//   };
 
-  // if (product.containsValue('Laptop') && product['quantity'] > 0) {
-  //   print('In stock');
-  // } else {
-  //   print('Not in stock');
-  // }
+//   if (product.containsValue('Laptop') && product['quantity'] > 0) {
+//     print('In stock');
+//   } else {
+//     print('Not in stock');
+//   }
 
 //   Q.20: Create a map named "car" with the following key-value pairs: "brand" as
 // "Toyota", "color" as "Red", "isSedan" as true. Write Dart code to check if the
