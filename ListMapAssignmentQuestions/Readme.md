@@ -10,12 +10,27 @@ This repository contains a collection of practice questions to help you work wit
     Create a list of names and print all names using the list.
    **Solution**
 
-   ````List<String> names = ['Bilal', 'Kamran', 'Rohan'];
+   ````dart
+   List<String> names = ['Bilal', 'Kamran', 'Rohan'];
       names.forEach((name) => print(name));```
    ````
 
 2. **Add Items to a List**  
-   Create an empty list of type `String` called `days`. Use the `add` method to add the names of 7 days and print all days.
+    Create an empty list of type `String` called `days`. Use the `add` method to add the names of 7 days and print all days.
+   **Solution**
+
+   ```dart
+     List<String> days = [];
+   days.addAll([
+   'Monday',
+   'Tuesday',
+   'Wednesday',
+   'Thursday',
+   'Friday',
+   'Saturday',
+   'Sunday'
+   ]);
+   ```
 
 3. **Remove Items from a List**  
    Create a list of days and remove one by one from the end of the list.
