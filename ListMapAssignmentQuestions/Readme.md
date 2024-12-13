@@ -145,7 +145,8 @@ print('Maximum number in a list is $maximumValue');
 ### Q10: Remove Duplicates from List ```dart
 
 ```dart
-List<String> names = ['Kamran', 'Bilal', 'Ali', 'Kamran', "Bilal"]; final removeDuplicates = names.toSet(); List<String> uniqueNames = removeDuplicates.toList();
+List<String> names = ['Kamran', 'Bilal', 'Ali', 'Kamran', "Bilal"];
+final removeDuplicates = names.toSet(); List<String> uniqueNames = removeDuplicates.toList();
 print(uniqueNames);
 ```
 
@@ -219,13 +220,16 @@ Given a list of integers, write a Dart code that uses the map() method to create
 
 ```dart
 List<int> numbers = [1, 2, 3, 4, 5, 6];
-List<int> squareNumbers = numbers.map((value) => value * value).toList();
+List<int> squareNumbers = numbers.map((value) => value * 3).toList();
 print(squareNumbers);
 ```
 
-### Q18: Check Eligibility
+### Q18:
 
-Create a map named "person" and check if the person is both a student and over 18 years old.
+Create a map named "person" with the following key-value pairs: "name"
+as "John", "age" as 25, "isStudent" as true. Write a Dart code to check if the
+person is both a student and over 18 years old. Print "Eligible" if both
+conditions are true, otherwise print "Not eligible"
 
 ```dart
 Map<String, dynamic> person = {'name': 'John', 'age': 25, 'isStudent': true};
