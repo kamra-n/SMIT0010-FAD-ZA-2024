@@ -7,7 +7,12 @@ This repository contains a collection of practice questions to help you work wit
 ### Lists
 
 1. **Create and Print a List**  
-   Create a list of names and print all names using the list.
+    Create a list of names and print all names using the list.
+   **Solution**
+
+   ````List<String> names = ['Bilal', 'Kamran', 'Rohan'];
+      names.forEach((name) => print(name));```
+   ````
 
 2. **Add Items to a List**  
    Create an empty list of type `String` called `days`. Use the `add` method to add the names of 7 days and print all days.
