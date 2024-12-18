@@ -25,7 +25,8 @@ void main() {
   // this method provide first element from list
   var lst = [1, 2, 3, 4, 5];
   var e2 = lst.last;
-  
-  var e3 = lst.elementAt(1);
-  var len = lst.length;
+  print(lst[0]);
+
+//   var e3 = lst.elementAt(1);
+//   var len = lst.length;
 }
