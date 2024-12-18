@@ -23,10 +23,16 @@ void main() {
   // var e1 = lst.first;
   // print(e1);
   // this method provide first element from list
-  var lst = [1, 2, 3, 4, 5];
-  var e2 = lst.last;
-  print(lst[0]);
+  // var lst = [1, 2, 3, 4, 5];
+  // var e2 = lst.last;
+  // print(lst[0]);
 
 //   var e3 = lst.elementAt(1);
 //   var len = lst.length;
+
+  // var names = [1];
+  // print(names.isNotEmpty);
+  var vals = [8, 4, 1, 2, 4, 5, 9];
+  var reversed = vals.reversed.toList();
+  print(reversed.runtimeType);
 }
