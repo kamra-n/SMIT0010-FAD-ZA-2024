@@ -36,5 +36,7 @@ void main() {
   // var reversed = vals.reversed.toList();
   // print(reversed.runtimeType);
 
- 
+  var vals = [1, 2, 3, 4, 5, 6, 'Kamran'];
+  vals.removeAt(vals.length - 1);
+  print(vals);
 }

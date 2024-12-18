@@ -170,3 +170,21 @@ List vals = [];
   // insertAll method take two aurguments first length of list second List of new element to add then place new list of element before taken length
   //[1, 2, 3, 4, 5, 8, 9, 10, 6, 7]
 ```
+
+## List Remove Methods
+
+```dart
+var vals = [1, 2, 3, 4, 5, 6, 'Kamran'];
+vals.remove('Kamran');
+print(vals);
+// this method take one aurgument and search this specific result in the list and remove this
+// [1, 2, 3, 4, 5, 6];
+```
+
+```dart
+var vals = [1, 2, 3, 4, 5, 6, 'Kamran'];
+vals.removeAt(0);
+print(vals);
+// this method take one aurgument a index remove element from specific index
+// [ 2, 3, 4, 5, 6, 'Kamran'];
+```
