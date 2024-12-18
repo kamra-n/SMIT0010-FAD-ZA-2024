@@ -58,28 +58,31 @@ print(e1);
 
 # Updating List
 
-## replace the item at index '3’
+## Replace the item at index '3’
 
 ```dart
-      var myList = [0, 'one', 'two', 'three', 'four', 'five’];
-      myList[3] = 3;
-      print(myList);
+var myList = [0, 'one', 'two', 'three', 'four', 'five'];
+
+myList[3] = 3;
+
+print(myList);
+// Output: [0, 'one', 'two', 3, 'four', 'five']
 ```
 
 ## replace the item at index '1’
 
 ```dart
-var myList = [0, 'one', 'two', 'three', 'four', 'five’]
-myList.replaceRange(1, 2, [1]);
-	print(myList);
+var myList = [0, 'one', 'two', 'three', 'four', 'five'];
+	myList.replaceRange(1, 2, [1]);
+ 	print(myList);
 	// [0, 1, two, 3, four, five]
 ```
 
 ## replace the items from index 2 to 4
 
-`````dart
-    var myList = [0, 'one', 'two', 'three', 'four', 'five’]
-    myList.replaceRange(2, 5, ['new 2', '3 and 4']);
-    print(myList);
-    ````
-`````
+````dart
+var myList = [0, 'one', 'two', 'three', 'four', 'five'];
+  myList.replaceRange(2, 5, ['new 2', '3 and 4']);
+  	print(myList);
+    ```
+````
