@@ -30,7 +30,7 @@ List<String> dataTypeSpecifiedList = ['Kamran,Bilal', "Ali"];
   print(e1);
 ```
 
--- this method provide first element from list
+--this method provide first element from list
 
 ```dart
 var lst = [1, 2, 3, 4, 5];
@@ -38,4 +38,4 @@ var e1 = lst.last;
 print(e1);
 ```
 
--- this method provide last element from list
+--this method provide last element from list
