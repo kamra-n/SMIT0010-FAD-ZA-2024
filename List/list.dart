@@ -32,7 +32,9 @@ void main() {
 
   // var names = [1];
   // print(names.isNotEmpty);
-  var vals = [8, 4, 1, 2, 4, 5, 9];
-  var reversed = vals.reversed.toList();
-  print(reversed.runtimeType);
+  // var vals = [8, 4, 1, 2, 4, 5, 9];
+  // var reversed = vals.reversed.toList();
+  // print(reversed.runtimeType);
+
+ 
 }

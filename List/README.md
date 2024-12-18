@@ -138,4 +138,35 @@ List vals = [];
 //[9, 5, 4, 2, 1, 4, 8]
 ```
 
-- reversed method change the type to ReversedListIterable<int> if we want it to convert in list we use List.of() or ..toList() this two also list method use to convert data type in List
+- reversed method change the type to ReversedListIterable<int> if we want it to convert in list we use List.of() or .toList() this two also list method use to convert data type in List
+
+## List Add Methods
+
+```dart
+ var vals = [1, 2, 3];
+
+  vals.add(4);
+  //.add method take element and place this element in the end of th list
+  vals.addAll([5, 6, 7]);
+  // .addAll method take another list all place all the new list element in existing list
+```
+
+## List insert and insertAll Methods
+
+```dart
+  List vals = [1, 2, 3, 4, 5, 6, 7, 8];
+  vals.insert(1, 0);
+  print(vals);
+  // insert method take two aurguments first index of list second element to add then place new element before taken index
+  // [1, 0, 2, 3, 4, 5, 6, 7, 8]
+```
+
+```dart
+ List vals = [1, 2, 3, 4, 5, 6, 7];
+  vals.insertAll(5, [8, 9, 10]);
+
+  print(vals);
+
+  // insertAll method take two aurguments first length of list second List of new element to add then place new list of element before taken length
+  //[1, 2, 3, 4, 5, 8, 9, 10, 6, 7]
+```
